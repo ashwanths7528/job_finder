@@ -10,7 +10,7 @@ def send_message(job):
 {job['link']}
 """
 
-    url = f"https://api.telegram.org/bot8136649503:AAFAg1QMGZxFDshX7TkcPDorP2PPSeUUsJE/sendMessage"
+    url = f"https://api.telegram.org/YOUR BOT TOKEN/sendMessage"
 
     requests.post(url, json={
         "chat_id": CHAT_ID,
